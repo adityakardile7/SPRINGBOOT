@@ -11,7 +11,7 @@ public class UserService {
     }
 
     public void notifyUser(String message) {
-        notificationService.send("Jay Shri RAM!");
+        notificationService.send("Jay Shri RAM! ");
     }
 
     public void setNotificationService(NotificationService notificationService) {
